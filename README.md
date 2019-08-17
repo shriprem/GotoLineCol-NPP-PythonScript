@@ -1,5 +1,5 @@
 # GotoLineCol-NPP-PythonScript
-_A PythonScript implementation to navigate to desired line and column position in Notepad++ files_
+_A Python Script implementation to navigate to desired line and column position in Notepad++ files_
 
 ### Utility
 1. Moves the cursor position to the specified line and column for a file in Notepad++. Especially useful for inspecting data files in fixed-width record formats.
@@ -22,7 +22,7 @@ _A PythonScript implementation to navigate to desired line and column position i
 ### Known Issues
 1. Character code display in the call tip is functional with SBCS (Single-Byte Character Sets) and LTR (left-to-right) direction. With MBCS (Bulti-Bytes Character Sets) or RTL (right-to-left) direction, results will not be reliable.
 
-2. If _`iCaretHiliteDuration`_ is set to a high value (> 3 seconds), and the user tries to rerun the script while the previous execution is still running, the PythonScript engine will display an error message: "Another script is still running..." So set this parameter to 3 seconds or lower.
+2. If _`iCaretHiliteDuration`_ is set to a high value (> 3 seconds), and the user tries to rerun the script while the previous execution is still running, the Python Script plugin will display an error message: "_Another script is still running..._" So set this parameter to 3 seconds or lower.
 
 ### Included Files
 1. **`GotoLineCol_Barebones.py`**: This file has only four lines of code. Intended to give a quick understanding of the core functionality in the main **GotoLineCol.py** script.
@@ -33,7 +33,7 @@ Copy the `GotoLineCol.py` file into the **_`NPP\_Plugins_/Config/PythonScript/sc
 
 If you have the need to use this script frequently, add it as a toolbar button. To do this:
 1. In the Notepad++ menu, go to **Plugins > Python Script > Configuration...**
-1. Select **User Scripts** radio button.
-1. Select the **GotoLineCol.py** listing.
-1. Click the **Add** button above the **Toolbar icons** section.
-1. Click the **OK** button.
+2. Click the **User Scripts** radio button.
+3. Select the **GotoLineCol.py** listing.
+4. Click the **Add** button above the **Toolbar icons** section.
+5. Click the **OK** button.
