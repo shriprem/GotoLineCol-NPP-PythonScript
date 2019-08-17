@@ -25,7 +25,7 @@ _A Python Script implementation to navigate to desired line and column position 
 2. If _`iCaretHiliteDuration`_ is set to a high value (> 3 seconds), and the user tries to rerun the script while the previous execution is still running, the Python Script plugin will display an error message: "_Another script is still running..._" So set this parameter to 3 seconds or lower.
 
 ### Included Files
-1. **`GotoLineCol_Barebones.py`**: This file has only four lines of code. Intended to give a quick understanding of the core functionality in the main **GotoLineCol.py** script.
+1. **`GotoLineCol_Barebones.py`**: This file has only four lines of code. Intended to give a quick understanding of the core functionality in the main **`GotoLineCol.py`** script.
 2. **`GotoLineCol.py`**: This is the main script file intended for regular use. Has the input validations, call tip display, and other bells and whistles.
 
 ### Installation
