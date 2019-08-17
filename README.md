@@ -2,7 +2,7 @@
 _A PythonScript implementation to navigate to desired line and column position in Notepad++ files_
 
 ### Utility
-1. Moves the cursor position to the specified line and column for a file in Notepad++. Especially useful for inspecting data files in fixed-width record format.
+1. Moves the cursor position to the specified line and column for a file in Notepad++. Especially useful for inspecting data files in fixed-width record formats.
 
 2. Also, displays the character code (SBCS & LTR) in decimal and hex at the specified position.
 
