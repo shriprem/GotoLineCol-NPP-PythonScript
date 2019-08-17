@@ -7,7 +7,7 @@ _A Python Script implementation to navigate to desired line and column position 
 2. Also, displays the character code (SBCS & LTR) in decimal and hex at the specified position.
 
 ### Customizable Parameters
-\[**_For the_ `goToLineCol` _function call in_ `main()`**]
+_For the `goToLineCol` function call in `main()`_
 
 **`bRepeatPrompt`**: Whether to repeat prompting when the specified number value is out of range
 
